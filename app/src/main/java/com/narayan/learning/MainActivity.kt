@@ -28,7 +28,7 @@ class MainActivity : AppCompatActivity(R.layout.activity_main) {
         super.onCreate(savedInstanceState)
 
 
-        Log.d(TAG, "onCreate: ")
+        Log.d(TAG, "onCreate: Hello World")
 
 
         val quoteService = RetrofitHelper.getInstance().create(QuoteService::class.java)
